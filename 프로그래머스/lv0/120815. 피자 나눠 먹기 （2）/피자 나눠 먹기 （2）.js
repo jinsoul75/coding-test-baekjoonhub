@@ -1,7 +1,6 @@
 function solution(n) {
   let pizza = 1
-  while(n){
-    if((6*pizza) % n === 0) break
+  while(6*pizza % n){
     pizza ++
   }
   return pizza
