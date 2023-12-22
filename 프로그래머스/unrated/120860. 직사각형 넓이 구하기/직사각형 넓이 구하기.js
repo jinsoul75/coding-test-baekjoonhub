@@ -1,10 +1,11 @@
 function solution(dots) {
-    const key = dots.map(dot=> dot[0])
-    const value = dots.map(dot=> dot[1])
-    const maxKey = Math.max(...key)
-    const minKey =Math.min(...key)
-    const maxValue =Math.max(...value)
-    const minValue =Math.min(...value)
+    const x = []
+    const y = []
     
-    return (maxKey-minKey)*(maxValue-minValue);
+    for(const dot of dots){
+        x.push(dot[0])
+        y.push(dot[1])
+    }
+    
+    return (Math.max(...x)-Math.min(...x))*(Math.max(...y)-Math.min(...y))
 }
