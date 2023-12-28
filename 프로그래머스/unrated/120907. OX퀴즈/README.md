@@ -1,6 +1,6 @@
 # [level unrated] OX퀴즈 - 120907 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120907#) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120907) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 12월 4일 14:28:26
+2023년 12월 4일 14:28:42
 
 ### 문제 설명
 
