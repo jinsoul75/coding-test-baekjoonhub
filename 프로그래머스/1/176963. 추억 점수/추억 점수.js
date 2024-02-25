@@ -1,5 +1,6 @@
 function solution(name, yearning, photo) {
     var answer = [];
+    
     const map = new Map()
     
     for(let i=0; i<name.length; i++){
